@@ -1,0 +1,43 @@
+{
+    "name": "joselfonseca/laravel-tactician",
+    "description": "Laravel implementation of the Tactician Command Bus",
+    "keywords": [
+      "laravel",
+      "laravel-tactician",
+      "Command Bus",
+      "Tactician"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Luis Fonseca",
+            "email": "jose@ditecnologia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "league/tactician": "1.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "mockery/mockery" : "0.9.*",
+        "orchestra/testbench": "~3.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joselfonseca\\LaravelTactician\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Joselfonseca\\LaravelTactician\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
